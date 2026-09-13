@@ -59,7 +59,7 @@ python -m unittest discover -s tests -v
 
 ## 数据源与数据契约
 
-Amazon/服装购物数据可以作为现有 GitHub 仓库的工程参考，但**不能用来验证装修偏好模型**。真实数据最小单元见 [data/schema.json](data/schema.json)：一条会话必须包含项目/屋主 ID、时间、证据、外生情境、候选方案与最终结果。
+Amazon/服装购物数据可以作为现有 GitHub 仓库的工程参考，但**不能用来验证装修偏好模型**。真实数据最小单元见 [data/schema.json](data/schema.json)：一条会话必须包含项目/屋主 ID、时间、证据、外生情境、候选方案与最终结果。公开数据、试点日志和严格切分的完整选择请见 [DATA_PLAN.md](DATA_PLAN.md)。
 
 可先并行寻找四类数据：
 
