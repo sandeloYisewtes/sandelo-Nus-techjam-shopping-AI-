@@ -9,10 +9,10 @@
 | 层级 | 可用数据 | 作用 | 不能声称 |
 |---|---|---|---|
 | 演示 | 本目录 `demo_events.jsonl`、状态空间模拟 | 验证接口、贝叶斯更新、硬约束和动作逻辑 | 真实用户满意度或商业效果 |
-| 公开部件数据 | [Amazon ESCI](https://github.com/amazon-science/esci-data) | 查询—候选项相关性、检索/排序基线 | 装修偏好、设计师协作或 RL 效果 |
+| 公开部件数据 | Amazon ESCI | 查询—候选项相关性、检索/排序基线 | 装修偏好、设计师协作或 RL 效果 |
 | 公开家居语料 | [Amazon Reviews 2023 / Home & Kitchen](https://amazon-reviews-2023.github.io/main.html) | 家具/材料属性、评论文本、弱监督偏好词典 | 原始装修搜索与方案接受 |
 | 空间/家具候选库 | [3D-FRONT](https://arxiv.org/abs/2011.09127) 与 [3D-FUTURE](https://arxiv.org/abs/2009.09633) | 室内布局、家具对象、案例检索和方案特征 | 屋主动态偏好序列；下载前须同意数据许可 |
-| RL/反事实工具 | [Open Bandit Pipeline](https://zr-obp.readthedocs.io/en/latest/) / [RecSim](https://github.com/google-research/recsim) | 动作日志、OPE 和模拟管线原型 | 真实装修业务效果 |
+| RL/反事实工具 | Open Bandit Pipeline / RecSim | 动作日志、OPE 和模拟管线原型 | 真实装修业务效果 |
 | 真实验证 | 已同意的屋主—设计师试点日志 | 验证 V7 端到端模型与后续 bandit/RL | 无 |
 
 不要把 Amazon 公开研究数据误解为“可调用的 Amazon 全量用户浏览历史”；它们是固定发布的研究数据。现有购物比赛仓库可复用工程思想，但其服装数据不能成为装修模型的真实测试集。

@@ -56,12 +56,11 @@ Requirements:
 This implementation uses only the Python standard library (`sqlite3`, `json`, `re`, and `math`). It has no model download, external API, API key, or network requirement at scoring time.
 
 ```bash
-git clone https://github.com/sandeloYisewtes/sandelo-nus-techjam-shopping-AI.git
-git clone https://github.com/TechJam2026/techjam-conversational-search.git participant-kit
-cp sandelo-nus-techjam-shopping-AI/agent.py participant-kit/starter/agent.py
+git clone https://github.com/sandeloYisewtes/sandelo-Nus-techjam-shopping-AI-.git
+cp sandelo-Nus-techjam-shopping-AI-/agent.py participant-kit/starter/agent.py
 ```
 
-Download the organizer-provided catalog release, verify its checksum, and place it at `participant-kit/data/catalog.jsonl`. The catalog itself is deliberately not included in this repository.
+Obtain the official participant kit and organizer-provided catalog release from the competition materials, verify its checksum, and place it at `participant-kit/data/catalog.jsonl`. The catalog itself is deliberately not included in this repository.
 
 ## Reproduce the public evaluation
 
